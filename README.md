@@ -30,6 +30,22 @@ A WebXR Beat Em All game made for a school project @Hetic.
 - Click on "VR"
 >[If you don't have a VR headset, use the WebXR API Emulator](https://chrome.google.com/webstore/detail/webxr-api-emulator/mjddjgeghkdijejnciaefnkjmkafnnje)
 
+## To Do
+- [ ] Object velocity management
+- [ ] Ennemy wave generation
+- [ ] Ennemy AI (Movement, attack pattern, life)
+- [ ] Score system
+- [ ] Menu (Main menu / Pause / End / In-Game UI, Shop)
+- [ ] Asset compositing
+- [ ] Sound Design (Define what we need)
+- [ ] Character animation
+- [ ] Ennemy animation
+- [ ] Object placement management (Turret like)
+
+
+
+
+
 
 
 
