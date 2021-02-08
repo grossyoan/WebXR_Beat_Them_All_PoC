@@ -33,6 +33,7 @@ A WebXR Beat Em All game made for a school project @Hetic.
 ## To Do
 - [ ] Object velocity management
 - [ ] Ennemy wave generation
+- [ ] VR Teleportation -> https://github.com/IJEMIN/Simple-Unity-VR-Teleporter
 - [ ] Ennemy AI (Movement, attack pattern, life)
 - [ ] Score system
 - [ ] Menu (Main menu / Pause / End / In-Game UI, Shop)
