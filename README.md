@@ -14,7 +14,23 @@ A WebXR Beat Em All game made for a school project @Hetic.
 - Clone the repository
 - Open the project using Unity Hub or directly within Unity
 
+## Preview in VR within Unity
+- Go to Project Settings -> XR-Plug-in Management -> PC, Mac and Linux standalone settings
+- Turn on the Plug-in Provider you need
+- Start SteamVR
+- Run the preview
+
 ## Deployment
-Build the application
-Run the build on an HTTPS server
+- Build the application for WebGL
+- Run the build on an HTTPS server
+
+## Preview in VR in WebXR
+- Start SteamVR
+- Run the build
+- Click on "VR"
+>[If you don't have a VR headset, use the WebXR API Emulator](https://chrome.google.com/webstore/detail/webxr-api-emulator/mjddjgeghkdijejnciaefnkjmkafnnje)
+
+
+
+
 
