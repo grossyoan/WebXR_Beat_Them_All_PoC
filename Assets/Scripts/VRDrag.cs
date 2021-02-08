@@ -1,5 +1,7 @@
 ﻿
 using UnityEngine;
+namespace WebXR.Interactions
+{
 [RequireComponent(typeof(Rigidbody))]
   public class VRDrag : MonoBehaviour
   {
@@ -75,3 +77,4 @@ using UnityEngine;
       return result;
     }
   }
+}
