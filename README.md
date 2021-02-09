@@ -31,16 +31,16 @@ A WebXR Beat Em All game made for a school project @Hetic.
 >[If you don't have a VR headset, use the WebXR API Emulator](https://chrome.google.com/webstore/detail/webxr-api-emulator/mjddjgeghkdijejnciaefnkjmkafnnje)
 
 ## To Do
-- [ ] Object velocity management
-- [ ] Ennemy wave generation
+- [ ] Object velocity management -> WIP
+- [ ] Ennemy wave generation -> https://sharpcoderblog.com/blog/fps-with-enemy-ai-in-unity-3d
 - [ ] VR Teleportation -> https://github.com/IJEMIN/Simple-Unity-VR-Teleporter
-- [ ] Ennemy AI (Movement, attack pattern, life)
-- [ ] Score system
+- [ ] Ennemy AI (Movement, attack pattern, life) -> https://sharpcoderblog.com/blog/fps-with-enemy-ai-in-unity-3d
+- [ ] Score system 
 - [ ] Menu (Main menu / Pause / End / In-Game UI, Shop)
 - [ ] Asset compositing
 - [ ] Sound Design (Define what we need)
-- [ ] Character animation
-- [ ] Ennemy animation
+- [ ] Character animation -> Waiting for the 3D Model
+- [ ] Ennemy animation -> WIP
 - [ ] Object placement management (Turret like)
 
 
