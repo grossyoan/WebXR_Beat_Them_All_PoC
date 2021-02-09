@@ -1388,9 +1388,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hand: 1
-  simulate3dof: 0
-  eyesToElbow: {x: 0.1, y: -0.4, z: 0.15}
-  elbowHand: {x: 0, y: 0, z: 0.25}
 --- !u!114 &114589835210473740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1408,6 +1405,7 @@ MonoBehaviour:
   controllerVisuals:
   - {fileID: 1136128897566686}
   - {fileID: 1664295426898042}
+  _ThrowForce: 1000
   handJointPrefab: {fileID: 8513787482403080262, guid: 67541c9d1fd5e2c4798986ee73c07923,
     type: 3}
   useInputProfile: 1
@@ -1783,6 +1781,7 @@ GameObject:
   - component: {fileID: 95219300520550374}
   - component: {fileID: 114546255618804366}
   - component: {fileID: 114372649503696970}
+  - component: {fileID: 3315513346719896008}
   - component: {fileID: 1966769163579045322}
   m_Layer: 0
   m_Name: handR
@@ -1870,9 +1869,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hand: 2
-  simulate3dof: 0
-  eyesToElbow: {x: 0.1, y: -0.4, z: 0.15}
-  elbowHand: {x: 0, y: 0, z: 0.25}
 --- !u!114 &114372649503696970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1890,11 +1886,24 @@ MonoBehaviour:
   controllerVisuals:
   - {fileID: 1644997114004198}
   - {fileID: 1091283458777958}
+  _ThrowForce: 1000
   handJointPrefab: {fileID: 8513787482403080262, guid: 67541c9d1fd5e2c4798986ee73c07923,
     type: 3}
   useInputProfile: 1
   inputProfileObject: {fileID: 1611361787474004}
   inputProfileModelParent: {fileID: 599836867309221058}
+--- !u!114 &3315513346719896008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1986733487743170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58f310688bd54854d822cc384e030aac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1966769163579045322
 MonoBehaviour:
   m_ObjectHideFlags: 0
