@@ -37,7 +37,7 @@ A WebXR Beat Em All game made for a school project @Hetic.
 - [x] Ennemy AI (Movement, attack pattern, life) -> https://sharpcoderblog.com/blog/fps-with-enemy-ai-in-unity-3d
 - [x] Ennemy animation
 - [ ] Ennemy -> Fix position on rotation
-- [ ] Ennemy -> Add animation on dying
+- [ ] Ennemy -> Trigger animation on dying
 - [ ] Animate Post Exposure on damage taken
 - [ ] Menu (Main menu/Pause/Victory/Game over)
 - [ ] UI (HP/Number of ennemies left/Number of waves)
