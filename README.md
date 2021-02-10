@@ -13,6 +13,7 @@ A WebXR Beat Em All game made for a school project @Hetic.
 ## Setup
 - Clone the repository
 - Open the project using Unity Hub or directly within Unity
+- Replace the content of the script "ControllerInteraction" with "VRInteraction"
 
 ## Preview in VR within Unity
 - Go to Project Settings -> XR-Plug-in Management -> PC, Mac and Linux standalone settings
@@ -32,9 +33,9 @@ A WebXR Beat Em All game made for a school project @Hetic.
 
 ## To Do
 - [x] Object velocity management
-- [ ] Ennemy wave generation -> https://sharpcoderblog.com/blog/fps-with-enemy-ai-in-unity-3d -> WIP
-- [ ] Ennemy AI (Movement, attack pattern, life) -> https://sharpcoderblog.com/blog/fps-with-enemy-ai-in-unity-3d
-- [ ] Score system 
+- [x] Ennemy wave generation -> https://sharpcoderblog.com/blog/fps-with-enemy-ai-in-unity-3d
+- [ ] Ennemy AI (Movement, attack pattern, life) -> https://sharpcoderblog.com/blog/fps-with-enemy-ai-in-unity-3d -> WIP
+- [ ] Score system -> WIP
 - [ ] Menu (Main menu / Pause / End / In-Game UI, Shop)
 - [ ] Asset compositing
 - [ ] Sound Design (Define what we need)
