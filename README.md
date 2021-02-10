@@ -38,16 +38,17 @@ A WebXR Beat Em All game made for a school project @Hetic.
 - [x] Ennemy animation
 - [ ] Ennemy -> Fix position on rotation
 - [ ] Ennemy -> Trigger animation on dying
-- [ ] Animate Post Exposure on damage taken
 - [ ] Menu (Main menu/Pause/Victory/Game over)
 - [ ] UI (HP/Number of ennemies left/Number of waves)
 - [ ] Asset compositing
 - [ ] Sound Design (Main theme/Damage received/Damage done/Game over/End of wave/New wave)
 - [ ] Character animation -> Waiting for the 3D Model
-- [ ] VR Teleportation or object throw position handler -> https://github.com/IJEMIN/Simple-Unity-VR-Teleporter
-- [ ] Object velocity refine
-- [ ] Object placement management (Turret like)
 - [ ] Bug fix (Objects giving damages to ennemies while being on the floor, player collision handler on hands)
+- [ ] Object velocity refine
+- [ ] Animate Post Exposure on damage taken
+- [ ] Object placement management (Turret like)
+- [ ] VR Teleportation or object throw position handler -> https://github.com/IJEMIN/Simple-Unity-VR-Teleporter
+
 
 
 
