@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3573398971850148219}
   - component: {fileID: 3573398971850148216}
   - component: {fileID: 3573398971850148217}
+  - component: {fileID: 8793513446222270991}
   - component: {fileID: 3573398971850148221}
   - component: {fileID: 3573398971850148214}
   - component: {fileID: 3573398971850148218}
@@ -83,6 +84,18 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &8793513446222270991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3573398971850148215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae57175b4aa6ad44cb28d49a765e56b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &3573398971850148221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,5 +168,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb63fb210e165194bb71d9cfc07c1964, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HPLifeText: {fileID: 0}
   playerHP: 100
   PointToLose: 10

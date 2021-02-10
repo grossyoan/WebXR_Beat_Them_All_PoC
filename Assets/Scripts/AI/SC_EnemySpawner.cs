@@ -9,6 +9,8 @@ public class SC_EnemySpawner : MonoBehaviour
     public float spawnInterval = 2; //Spawn new enemy each n seconds
     public int enemiesPerWave = 5; //How many enemies per wave
     public Transform[] spawnPoints;
+    
+    public TextMesh CountDownText;
 
     float nextSpawnTime = 0;
     int waveNumber = 1;
@@ -27,7 +29,7 @@ public class SC_EnemySpawner : MonoBehaviour
         Cursor.visible = false;
 
         //Wait 10 seconds for new wave to start
-        newWaveTimer = 10;
+        newWaveTimer = 5;
         waitingForWave = true;
     }
 
@@ -58,8 +60,7 @@ public class SC_EnemySpawner : MonoBehaviour
                 //Spawn enemy 
                 if(totalEnemiesSpawned < enemiesToEliminate)
                 {
-                    Transform randomPoint = spawnPoints[Random.Range(0, spawnPoints.Length - 1)];
-
+                    Transform randomPoint = spawnPoints[Random.Range(0, spawnPoints.Length)];
                     GameObject enemy = Instantiate(enemyPrefab, randomPoint.position, Quaternion.identity);
                     SC_NPCEnemy npc = enemy.GetComponent<SC_NPCEnemy>();
                     npc.playerTransform = player.transform;
@@ -92,11 +93,15 @@ public class SC_EnemySpawner : MonoBehaviour
 
         if (waitingForWave)
         {
+            CountDownText.text =  "Waiting for Wave " + waveNumber.ToString() + ". " + ((int)newWaveTimer).ToString() + " seconds left...";
             GUI.Box(new Rect(Screen.width / 2 - 125, Screen.height / 4 - 12, 250, 25), "Waiting for Wave " + waveNumber.ToString() + ". " + ((int)newWaveTimer).ToString() + " seconds left...");
+        }
+        else {
+            CountDownText.text =  "";
         }
     }
 
-    public void EnemyEliminated(SC_NPCEnemy enemy)
+    public void EnemyEliminated()
     {
         enemiesEliminated++;
 
