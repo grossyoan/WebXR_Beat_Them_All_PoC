@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PlayerZone : MonoBehaviour
 {
-    public Transform PlayerCamera;
+    public Transform HandR;
+    public Transform HandL;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,9 +14,10 @@ public class PlayerZone : MonoBehaviour
 
     void Update()
     {
-        transform.position = new Vector3(PlayerCamera.position.x, 0, PlayerCamera.position.z);
-
+        transform.position = new Vector3(( HandL.position.x + HandR.position.x)/2, 0, ( HandL.position.z + HandR.position.z)/2);
+        //transform.position = (josh.position + mark.position)/2;
     }
+
 
     public void RemovePoint(GameObject obj)  
     {
