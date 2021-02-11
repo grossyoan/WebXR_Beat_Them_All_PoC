@@ -36,10 +36,10 @@ A WebXR Beat Em All game made for a school project @Hetic.
 - [x] Ennemy wave generation -> https://sharpcoderblog.com/blog/fps-with-enemy-ai-in-unity-3d
 - [x] Ennemy AI (Movement, attack pattern, life) -> https://sharpcoderblog.com/blog/fps-with-enemy-ai-in-unity-3d
 - [x] Ennemy animation
-- [ ] Ennemy -> Fix position on rotation
-- [ ] Ennemy -> Trigger animation on dying
+- [x] Ennemy -> Fix position on rotation
+- [x] Ennemy -> Trigger animation on dying
 - [ ] Menu (Main menu/Pause/Victory/Game over)
-- [ ] UI (HP/Number of ennemies left/Number of waves)
+- [x] UI (HP/Number of ennemies left/Number of waves)
 - [ ] Asset compositing
 - [ ] Sound Design (Main theme/Damage received/Damage done/Game over/End of wave/New wave)
 - [ ] Character animation -> Waiting for the 3D Model
