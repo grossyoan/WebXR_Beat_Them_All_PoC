@@ -44,7 +44,7 @@ A WebXR Beat Em All game made for a school project @Hetic.
 - [x] Object velocity refine
 - [x] Asset compositing
 - [x] UI Refine (Scoring etc)
-- [ ] Major bug fix (ennemies running over the floor and books)
+- [x] Major bug fix (ennemies running over the floor and books)
 - [ ] Improve lighting
 - [ ] Add interactable elements
 - [ ] Bug fix (Objects giving damages to ennemies while being on the floor, player collision handler on hands, Restart on weebgl export is broken, )

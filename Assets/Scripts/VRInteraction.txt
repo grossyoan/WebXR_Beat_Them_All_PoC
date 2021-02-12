@@ -22,7 +22,7 @@ namespace WebXR.Interactions
 
     public GameObject[] controllerVisuals;
 
-    public int _ThrowForce = 1000;
+    public int _ThrowForce = 500;
 
     public Transform handJointPrefab;
     private bool handJointsVisible = false;

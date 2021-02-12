@@ -27,8 +27,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.21661621, y: 0.21659559, z: 1.6468847}
-  m_Center: {x: -0.64493626, y: 0.14418495, z: 0.023381472}
+  m_Size: {x: 0.21661627, y: 0.21659559, z: 1.7781104}
+  m_Center: {x: -0.64493626, y: 0.14418495, z: 0.088994324}
 --- !u!1001 &1276845076842684727
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -94,7 +94,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e413a3eb1f30cc640adf6c14b0d54375,
         type: 3}
       propertyPath: m_Name
-      value: Wood Bat Variant
+      value: Wood Bat
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e413a3eb1f30cc640adf6c14b0d54375,
         type: 3}

@@ -124,14 +124,14 @@ public class SC_EnemySpawner : MonoBehaviour
 
     void OnGUI()
     {
-        GUI.Box(new Rect(10, Screen.height - 35, 100, 25), ((int)player.playerHP).ToString() + " HP");
+        //GUI.Box(new Rect(10, Screen.height - 35, 100, 25), ((int)player.playerHP).ToString() + " HP");
 
         if(player.playerHP <= 0)
         {
-            GUI.Box(new Rect(Screen.width / 2 - 75, Screen.height / 2 - 20, 150, 40), "Game Over\nPress 'Space' to Restart");
+           // GUI.Box(new Rect(Screen.width / 2 - 75, Screen.height / 2 - 20, 150, 40), "Game Over\nPress 'Space' to Restart");
         }
 
-        GUI.Box(new Rect(Screen.width / 2 - 50, 10, 100, 25), (enemiesToEliminate - enemiesEliminated).ToString());
+        //GUI.Box(new Rect(Screen.width / 2 - 50, 10, 100, 25), (enemiesToEliminate - enemiesEliminated).ToString());
         EnnemiesText.text = (enemiesToEliminate - enemiesEliminated).ToString() + " enemies left";
 
         if (waitingForWave)
@@ -140,7 +140,7 @@ public class SC_EnemySpawner : MonoBehaviour
             EnnemiesText.text = "";
 
             CountDownText.text =  "Wave " + waveNumber.ToString() + " in " + ((int)newWaveTimer).ToString() + " seconds";
-            GUI.Box(new Rect(Screen.width / 2 - 125, Screen.height / 4 - 12, 250, 25), "Wave " + waveNumber.ToString() + " starting in " + ((int)newWaveTimer).ToString() + " seconds");
+            //GUI.Box(new Rect(Screen.width / 2 - 125, Screen.height / 4 - 12, 250, 25), "Wave " + waveNumber.ToString() + " starting in " + ((int)newWaveTimer).ToString() + " seconds");
         }
         else {
             CountDownText.text =  "";
