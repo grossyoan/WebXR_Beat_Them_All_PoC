@@ -42,9 +42,12 @@ A WebXR Beat Em All game made for a school project @Hetic.
 - [x] UI (HP/Number of ennemies left/Number of waves)
 - [x] Sound Design (Main theme/Damage received/Damage done/Game over/End of wave/New wave)
 - [x] Object velocity refine
-- [ ] Asset compositing
-- [ ] UI Refine
-- [ ] Bug fix (Objects giving damages to ennemies while being on the floor, player collision handler on hands, Restart on weebgl export is broken)
+- [x] Asset compositing
+- [x] UI Refine (Scoring etc)
+- [ ] Major bug fix (ennemies running over the floor and books)
+- [ ] Improve lighting
+- [ ] Add interactable elements
+- [ ] Bug fix (Objects giving damages to ennemies while being on the floor, player collision handler on hands, Restart on weebgl export is broken, )
 - [ ] <!> Out of time <!> Character animation
 - [ ] <!> Out of time <!> Animate Post Exposure on damage taken
 - [ ] <!> Out of time <!> Object placement management (Turret like)

@@ -132,15 +132,15 @@ public class SC_EnemySpawner : MonoBehaviour
         }
 
         GUI.Box(new Rect(Screen.width / 2 - 50, 10, 100, 25), (enemiesToEliminate - enemiesEliminated).ToString());
-        EnnemiesText.text = (enemiesToEliminate - enemiesEliminated).ToString() + " enemies";
+        EnnemiesText.text = (enemiesToEliminate - enemiesEliminated).ToString() + " enemies left";
 
         if (waitingForWave)
         {
 
             EnnemiesText.text = "";
 
-            CountDownText.text =  "Wave " + waveNumber.ToString() + "- " + ((int)newWaveTimer).ToString() + " seconds";
-            GUI.Box(new Rect(Screen.width / 2 - 125, Screen.height / 4 - 12, 250, 25), "Waiting for Wave " + waveNumber.ToString() + ". " + ((int)newWaveTimer).ToString() + " seconds left...");
+            CountDownText.text =  "Wave " + waveNumber.ToString() + " in " + ((int)newWaveTimer).ToString() + " seconds";
+            GUI.Box(new Rect(Screen.width / 2 - 125, Screen.height / 4 - 12, 250, 25), "Wave " + waveNumber.ToString() + " starting in " + ((int)newWaveTimer).ToString() + " seconds");
         }
         else {
             CountDownText.text =  "";

@@ -10,7 +10,7 @@ public class SC_DamageReceiver : MonoBehaviour
     public SC_EnemySpawner es;
 
     void Start() {
-        HPLifeText.text =  "100 hp";
+        HPLifeText.text =  "You have 100 hp left";
 
     }
 
@@ -18,7 +18,7 @@ public class SC_DamageReceiver : MonoBehaviour
     {
         playerHP -= PointToLose;
         es.EnemyEliminated();
-        HPLifeText.text =  playerHP.ToString("F0") + " hp";
+        HPLifeText.text =  "You have " + playerHP.ToString("F0") + " hp left";
         Destroy(obj);
 
         if(playerHP <= 0)
